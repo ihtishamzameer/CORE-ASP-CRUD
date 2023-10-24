@@ -17,10 +17,8 @@ namespace Crud_Operations.Controllers
             Mvcdemocontext = mvcdemocontext;
         }
 
-        public MVCDemoDbContext Mvcdemocontext;
-
-
-        [HttpGet]
+        public MVCDemoDbContext Mvcdemocontext;//above four line are for db context class setup
+        
         [HttpGet]
         public IActionResult Add()
         {
